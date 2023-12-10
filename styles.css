@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    color: white;
+  }
+  
+  .player-name {
+    font-size: 36px;
+  }
+  
+  .minecraft-icons {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .minecraft-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('minecraft_icon.png'); /* Replace with your Minecraft icon */
+    background-size: cover;
+    animation: floatIcon 5s infinite linear alternate;
+  }
+  
+  @keyframes floatIcon {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
