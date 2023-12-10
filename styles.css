@@ -15,12 +15,13 @@ body {
   
   .player-name {
     font-size: 36px;
+    position: relative; /* Added position relative to .player-name */
+    z-index: 2; /* Added higher z-index to ensure it's above other elements */
   }
   
   .minecraft-icons {
-    position: relative;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
   }
   
   .minecraft-icon {
