@@ -1,5 +1,5 @@
 // Number of Minecraft icons to display
-const numberOfIcons = 10000;
+const numberOfIcons = 100;
 
 // Function to create and append Minecraft icons
 function createIcons() {
